@@ -32,7 +32,7 @@ test:
     - psfex
 
 about:
-  home: https://github.com/eaheldon/psfex
+  home: https://github.com/esheldon/psfex
   license: GPLv3
   license_family: GPL
   license_file: LICENSE
