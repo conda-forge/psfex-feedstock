@@ -3,7 +3,7 @@ About psfex
 
 [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
-Home: https://github.com/rmjarvis/TreeCorr
+Home: https://github.com/esheldon/psfex
 
 Package license: GPLv3
 
