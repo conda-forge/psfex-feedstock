@@ -1,5 +1,5 @@
 {% set name = "psfex" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/esheldon/psfex/archive/v{{ version }}.tar.gz
-  sha256: d9efc6ce7b1eade3766ef66c6457afb8bad90ca5ddca3a169acedf8c0ddbf25f
+  sha256: c2d2887dbab08933ed553d8ef22cad140ff2386aecc0d9c20d92db74f2f5b0b8
 
 build:
-  number: 1002
+  number: 0
   skip: True  # [win]
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
