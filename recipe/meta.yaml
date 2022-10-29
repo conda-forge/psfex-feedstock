@@ -33,8 +33,7 @@ test:
 
 about:
   home: https://github.com/esheldon/psfex
-  license: GPLv3
-  license_family: GPL
+  license: GPL-3.0-only
   license_file: LICENSE
   summary: |
     python and C codes to interpolate and reconstruct psfex images
