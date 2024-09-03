@@ -10,7 +10,7 @@ source:
   sha256: c2d2887dbab08933ed553d8ef22cad140ff2386aecc0d9c20d92db74f2f5b0b8
 
 build:
-  number: 5
+  number: 6
   skip: True  # [win]
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -21,6 +21,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
