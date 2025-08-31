@@ -13,7 +13,8 @@ build:
   number: 8
   skip: True  # [win]
   script:
-    - "{{ PYTHON }} -m pip install . --no-deps -vv"
+    - export CFLAGS="${CFLAGS} -Wno-incompatible-pointer-types"  # [linux]
+    - {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
